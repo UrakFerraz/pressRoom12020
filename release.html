@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html ⚡ lang="pt-BR">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sample document</title>
+    <!-- <link rel="canonical" href="./regular-html-version.html"/> -->
+    <meta name="viewport"content="width=device-width,minimum-scale=1,initial-scale=1"/>
+    <style amp-custom>
+
+    </style>
+
+
+<!--     <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Article headline",
+        "image": ["thumbnail1.jpg"],
+        "datePublished": "2015-02-05T08:00:00+08:00"
+      }
+    </script> -->
+
+
+
+    <script async custom-element="amp-carousel"src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script> <script async custom-element="amp-ad"src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script> <style amp-boilerplate> body {-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both; } @-webkit-keyframes -amp-start {from {visibility: hidden; } to {visibility: visible; } } @-moz-keyframes -amp-start {from {visibility: hidden; } to {visibility: visible; } } @-ms-keyframes -amp-start {from {visibility: hidden; } to {visibility: visible; } } @-o-keyframes -amp-start {from {visibility: hidden; } to {visibility: visible; } } @keyframes -amp-start {from {visibility: hidden; } to {visibility: visible; } } </style> <noscript ><style amp-boilerplate> body {-webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none; } </style></noscript>
+
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/config.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaQueries.css">
+
+
+  </head>
+
+
+  <body onload="socialLabels()">
+
+
+
+
+
+
+
+
+
+
+<!-- início fullContainer -->
+<div class="fullContainer">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="boxModelGrid">
+  <div class="headerLogoWrapper">
+    <amp-img alt="logo" src="img/logoHeader.jpg" layout="fill" class="contain"></amp-img>
+  </div>
+  <div class="headerMenu boxModelFlex">
+    <a href="" aria-label="aLink" class="headerMenuUnit boxModelFlex aLink">Home</a>
+    <a href="" aria-label="aLink" class="headerMenuUnit boxModelFlex aLink editoriasBtn">
+      <span>Editorias</span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="25" height="25"><path d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"/></svg>
+      <div class="dropDownEditorias boxModelFlex">
+        <a href="" aria-label="aLink">Cidade</a>
+        <a href="" aria-label="aLink">Economia</a>
+        <a href="" aria-label="aLink">Saúde</a>
+        <a href="" aria-label="aLink">Cultura</a>
+        <a href="" aria-label="aLink">Esporte</a>
+      </div>
+    </a>
+    <a href="" aria-label="aLink" class="headerMenuUnit boxModelFlex aLink">Notícias</a>
+    <a href="" aria-label="aLink" class="headerMenuUnit boxModelFlex aLink">Contato</a>
+  </div>
+  <div class="hamburguerMenuBtn boxModel">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30"><path d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"/></svg>
+  </div>
+  <a href="" aria-label="aLink" class="headerAtendimentoBtn boxModelGrid aLink">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 45.1 39" xml:space="preserve"> <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M27.7,23.5H14.2L6.7,30l0-6.5h-4c-0.9,0-1.7-0.8-1.7-1.7V2.7C1,1.8,1.8,1,2.7,1h25c0.9,0,1.7,0.8,1.7,1.7v19.1 C29.4,22.7,28.6,23.5,27.7,23.5z"/> <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M15.7,26.8v3c0,0.9,0.8,1.7,1.7,1.7h13.5l7.5,6.5v-6.5h4c0.9,0,1.7-0.8,1.7-1.7V10.7c0-0.9-0.8-1.7-1.7-1.7h-9.4"/> <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="9.2,13.6 12.2,16.6 21.3,7.6   "/> </svg>
+    <h4>Atendimento</h4>
+  </a>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mobileMenuContainer boxModelGrid">
+  <div class="mobileMenuCloseBtn boxModel">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="25" height="25"><path d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z"/></svg>
+  </div>
+  <div class="mobileLogoWrapper">
+    <amp-img alt="logo" src="img/logoHeader.jpg" layout="fill" class="contain"></amp-img>
+  </div>
+  <div class="mobileMenu boxModelFlex">
+    <a href="" aria-label="aLink" class="mobileMenuUnit boxModelFlex">Home</a>
+    <a href="" aria-label="aLink" class="mobileMenuUnit boxModelFlex mobileEditoriasBtn">
+      <span>Editorias</span>
+      <svg class="mobileDropDownIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="25" height="25"><path d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"/></svg>
+      <div class="mobileDropDownEditoriasContainer boxModel">
+        <div class="mobileDropDownEditorias boxModelFlex">
+          <a href="" aria-label="aLink">Cidade</a>
+          <a href="" aria-label="aLink">Economia</a>
+          <a href="" aria-label="aLink">Saúde</a>
+          <a href="" aria-label="aLink">Cultura</a>
+          <a href="" aria-label="aLink">Esporte</a>
+        </div>
+      </div>
+    </a>
+    <a href="" aria-label="aLink" class="mobileMenuUnit boxModelFlex">Notícias</a>
+    <a href="" aria-label="aLink" class="mobileMenuUnit boxModelFlex">Contato</a>
+  </div>
+  <div class="mobileMenuSocial boxModelFlex">
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+    </a>
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30"><path d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"/></svg>
+    </a>
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" width="30" height="30"><path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"/></svg>
+    </a>
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="30" height="30"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="30" height="30"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  </div> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="topSearchBar boxModelGrid">
+    <label for="topSearchBarInput" class="labelInput">Faça uma busca</label>
+    <input type="" name="topSearchBarInput" id="topSearchBarInput" class="boxModel" placeholder="Faça uma busca">
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36.7 36.7" xml:space="preserve"> <path fill="#404040" d="M36.5,34.5l-9.3-9.3c-0.2-0.2-0.4-0.3-0.6-0.3h-0.7c2.5-2.7,4-6.2,4-10.1C29.8,6.7,23.2,0,14.9,0 S0,6.7,0,14.9s6.7,14.9,14.9,14.9c3.9,0,7.5-1.5,10.1-4v0.7c0,0.2,0.1,0.4,0.3,0.6l9.3,9.3c0.3,0.3,0.9,0.3,1.2,0l0.7-0.7 C36.8,35.4,36.8,34.9,36.5,34.5z M14.9,27.5c-7,0-12.6-5.6-12.6-12.6S7.9,2.3,14.9,2.3s12.6,5.6,12.6,12.6S21.9,27.5,14.9,27.5z"/> </svg>
+    </a>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="releaseWrapper boxModelGrid">
+  <div class="releaseHeroImg">
+    <amp-img alt="logo" src="img/slide1.jpg" layout="fill" class="cover"></amp-img>
+    <a href="img/slide1.jpg" aria-label="aLink" class="boxModel downloadImgBtn" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 85 85" xml:space="preserve"><path fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" d="M69.278,52.394v8.7 c0,2.312-1.892,4.203-4.204,4.203H19.927c-2.312,0-4.204-1.892-4.204-4.203v-8.7"/><line fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="42.48" y1="54.169" x2="42.48" y2="19.704"/> </g> <polyline fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="57.368,39.363 42.488,54.219 27.632,39.363     "/></svg>
+    </a>
+  </div>
+  <div class="releaseTitleWrapper boxModel">
+    <span class="imgSubtitle">Legenda: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis atque neque.</span>
+    <h5 class="releaseDate">12/01/2020</h5>
+    <h1 class="headerTitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat dolore quis corporis ea, blanditiis magnam animi saepe sequi nisi ipsam fugit esse amet aperiam, eum explicabo recusandae mollitia commodi. Voluptatibus?</h1>
+  </div>
+  <div class="releaseContent boxModelFlex">
+    <a href="" aria-label="aLink" class="boxModelGrid tags">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>
+      <span>Atualidades</span>
+    </a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam consectetur odit fuga, aliquam quasi saepe voluptas! Similique doloribus animi ratione sequi consectetur in eos ducimus dolorum atque. Veniam vero eligendi repellendus esse quia! Molestiae odit modi nulla dolores! Officia laudantium sapiente eligendi officiis iusto possimus voluptatibus odit quasi fugiat ea.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, neque nesciunt ipsam placeat, ut recusandae autem exercitationem illo vitae, voluptatibus officia eaque reprehenderit odit. Non eaque, nulla consequatur tempore inventore quia harum, optio modi magni, voluptates, enim ut cumque soluta. Aliquid excepturi modi nihil error explicabo rerum et praesentium quibusdam.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, illum, magni aperiam culpa in quidem deserunt nulla perferendis, facere eligendi molestiae nostrum. Molestiae modi qui incidunt ex nobis labore cupiditate totam. Aliquam natus, totam omnis aliquid. Accusantium consectetur laudantium repellendus voluptate, dolore quam amet ea labore rem id voluptatibus aspernatur repellat, sed obcaecati at repudiandae perferendis, quas cupiditate error deserunt est sapiente! Molestiae accusamus exercitationem assumenda, rerum omnis consequuntur quasi a in distinctio quaerat odio vero debitis veniam, saepe! Voluptatem dolorum vero porro amet omnis! Cupiditate provident, illum facere eligendi, veritatis earum dignissimos, ab ipsum non necessitatibus sint reiciendis. Assumenda!</p>
+    <div class="releaseContentImg">
+      <amp-img alt="logo" src="img/slide5.jpg" layout="fill" class="cover"></amp-img>
+      <a href="img/slide5.jpg" aria-label="aLink" class="boxModel downloadImgBtn" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 85 85" xml:space="preserve"><path fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" d="M69.278,52.394v8.7 c0,2.312-1.892,4.203-4.204,4.203H19.927c-2.312,0-4.204-1.892-4.204-4.203v-8.7"/><line fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="42.48" y1="54.169" x2="42.48" y2="19.704"/> </g> <polyline fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="57.368,39.363 42.488,54.219 27.632,39.363     "/></svg>
+      </a>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, vitae dolor veniam, saepe qui ipsa cum ad eaque repudiandae reiciendis quisquam commodi temporibus? Facilis quos esse quasi, magnam, amet ullam sed ipsum nobis illum. Consequatur nesciunt amet minima temporibus suscipit enim eaque molestiae magnam esse laborum ullam voluptatum quaerat, possimus blanditiis repellendus iure quasi molestias! Ratione, nam, ullam? Vel, doloribus.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nobis, nostrum, necessitatibus aliquid inventore id aperiam dolor. Culpa quasi labore minus quaerat. Mollitia possimus nisi hic soluta numquam nihil. Eos molestiae delectus pariatur, explicabo minus libero fugit maiores itaque a quae, eum suscipit. Perspiciatis consequatur itaque possimus facilis ipsa, repudiandae rem nobis voluptate deserunt ab. Numquam dolorem similique, aut eius nostrum minima esse aperiam deleniti ducimus eum, provident, commodi non.</p>
+    <div class="socialShareBtns boxModelFlex">
+      <amp-social-share class="socialShareIcon" type="email" width="40" height="40"></amp-social-share>
+      <amp-social-share class="socialShareIcon" type="facebook" width="40" height="40" data-param-app_id="254325784911610"></amp-social-share>
+      <amp-social-share class="socialShareIcon" type="linkedin" width="40" height="40"></amp-social-share>
+      <amp-social-share class="socialShareIcon" type="twitter" width="40" height="40"></amp-social-share>
+      <amp-social-share class="socialShareIcon" type="whatsapp" width="40" height="40"></amp-social-share>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="noticiasGrid boxModelGrid">
+  <div class="noticiaAsideUnitWrapper boxModelGrid">
+    <amp-img alt="noticias" src="https://source.unsplash.com/640x480/?surf" class="cover" layout="fill"> </amp-img>
+    <div class="noticiaTextsWrapper boxModelGrid">
+      <a href="" aria-label="aLink" class="boxModelGrid tags">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>
+        <span>Atualidades</span>
+      </a>
+      <span class="slideDate">12/02/2020</span>
+    </div>
+    <a href="" aria-label="aLink" class="noticiasTitles"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus laboriosam iusto, ipsam magnam saepe expedita laborum aliquid, porro ipsum maiores.</h4></a>
+    <div class="noticiasSocialShareWrapper boxModel">
+      <div class="noticiasSocialShare boxModelFlex">
+        <div class="shareIcon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30"><path d="M352 320c-22.608 0-43.387 7.819-59.79 20.895l-102.486-64.054a96.551 96.551 0 0 0 0-41.683l102.486-64.054C308.613 184.181 329.392 192 352 192c53.019 0 96-42.981 96-96S405.019 0 352 0s-96 42.981-96 96c0 7.158.79 14.13 2.276 20.841L155.79 180.895C139.387 167.819 118.608 160 96 160c-53.019 0-96 42.981-96 96s42.981 96 96 96c22.608 0 43.387-7.819 59.79-20.895l102.486 64.054A96.301 96.301 0 0 0 256 416c0 53.019 42.981 96 96 96s96-42.981 96-96-42.981-96-96-96z"/></svg>
+        </div>
+        <div class="socialShareBtns boxModelFlex">
+          <amp-social-share class="socialShareIcon" type="email" width="40" height="40"></amp-social-share>
+          <amp-social-share class="socialShareIcon" type="facebook" width="40" height="40" data-param-app_id="254325784911610"></amp-social-share>
+          <amp-social-share class="socialShareIcon" type="linkedin" width="40" height="40"></amp-social-share>
+          <amp-social-share class="socialShareIcon" type="twitter" width="40" height="40"></amp-social-share>
+          <amp-social-share class="socialShareIcon" type="whatsapp" width="40" height="40"></amp-social-share>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="noticiaUnitWrapper boxModelFlex">
+    <div class="noticiaImgWrapper boxModel">
+      <amp-img alt="noticias" src="https://source.unsplash.com/640x480/?beach" class="cover" layout="fill"> </amp-img>
+      <div class="noticiasSocialShareWrapper boxModel">
+        <div class="noticiasSocialShare boxModelFlex">
+          <div class="shareIcon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30"><path d="M352 320c-22.608 0-43.387 7.819-59.79 20.895l-102.486-64.054a96.551 96.551 0 0 0 0-41.683l102.486-64.054C308.613 184.181 329.392 192 352 192c53.019 0 96-42.981 96-96S405.019 0 352 0s-96 42.981-96 96c0 7.158.79 14.13 2.276 20.841L155.79 180.895C139.387 167.819 118.608 160 96 160c-53.019 0-96 42.981-96 96s42.981 96 96 96c22.608 0 43.387-7.819 59.79-20.895l102.486 64.054A96.301 96.301 0 0 0 256 416c0 53.019 42.981 96 96 96s96-42.981 96-96-42.981-96-96-96z"/></svg>
+          </div>
+          <div class="socialShareBtns boxModelFlex">
+            <amp-social-share class="socialShareIcon" type="email" width="40" height="40"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="facebook" width="40" height="40" data-param-app_id="254325784911610"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="linkedin" width="40" height="40"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="twitter" width="40" height="40"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="whatsapp" width="40" height="40"></amp-social-share>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="noticiaTextsWrapper boxModelGrid">
+      <a href="" aria-label="aLink" class="boxModelGrid tags">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>
+        <span>Atualidades</span>
+      </a>
+      <span class="slideDate">12/02/2020</span>
+      <a href="" aria-label="aLink" class="noticiasTitles"><h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus laboriosam iusto, ipsam magnam saepe expedita laborum aliquid, porro ipsum maiores.</h3></a>
+      <p class="noticiasSubtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque sapiente laboriosam autem atque optio accusamus excepturi debitis animi quam quo, perspiciatis ad nam dolorum quaerat laborum ipsam accusantium id repellendus.</p>
+    </div>
+  </div>
+  <div class="noticiaUnitWrapper boxModelFlex">
+    <div class="noticiaImgWrapper boxModel">
+      <amp-img alt="noticias" src="https://source.unsplash.com/640x480/?animal" class="cover" layout="fill"> </amp-img>
+      <div class="noticiasSocialShareWrapper boxModel">
+        <div class="noticiasSocialShare boxModelFlex">
+          <div class="shareIcon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30"><path d="M352 320c-22.608 0-43.387 7.819-59.79 20.895l-102.486-64.054a96.551 96.551 0 0 0 0-41.683l102.486-64.054C308.613 184.181 329.392 192 352 192c53.019 0 96-42.981 96-96S405.019 0 352 0s-96 42.981-96 96c0 7.158.79 14.13 2.276 20.841L155.79 180.895C139.387 167.819 118.608 160 96 160c-53.019 0-96 42.981-96 96s42.981 96 96 96c22.608 0 43.387-7.819 59.79-20.895l102.486 64.054A96.301 96.301 0 0 0 256 416c0 53.019 42.981 96 96 96s96-42.981 96-96-42.981-96-96-96z"/></svg>
+          </div>
+          <div class="socialShareBtns boxModelFlex">
+            <amp-social-share class="socialShareIcon" type="email" width="40" height="40"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="facebook" width="40" height="40" data-param-app_id="254325784911610"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="linkedin" width="40" height="40"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="twitter" width="40" height="40"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="whatsapp" width="40" height="40"></amp-social-share>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="noticiaTextsWrapper boxModelGrid">
+      <a href="" aria-label="aLink" class="boxModelGrid tags">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>
+        <span>Atualidades</span>
+      </a>
+      <span class="slideDate">12/02/2020</span>
+      <a href="" aria-label="aLink" class="noticiasTitles"><h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus laboriosam iusto, ipsam magnam saepe expedita laborum aliquid, porro ipsum maiores.</h3></a>
+      <p class="noticiasSubtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque sapiente laboriosam autem atque optio accusamus excepturi debitis animi quam quo, perspiciatis ad nam dolorum quaerat laborum ipsam accusantium id repellendus.</p>
+    </div>
+  </div>
+  <div class="noticiaUnitWrapper boxModelFlex">
+    <div class="noticiaImgWrapper boxModel">
+      <amp-img alt="noticias" src="https://source.unsplash.com/640x480/?archtecture" class="cover" layout="fill"> </amp-img>
+      <div class="noticiasSocialShareWrapper boxModel">
+        <div class="noticiasSocialShare boxModelFlex">
+          <div class="shareIcon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30"><path d="M352 320c-22.608 0-43.387 7.819-59.79 20.895l-102.486-64.054a96.551 96.551 0 0 0 0-41.683l102.486-64.054C308.613 184.181 329.392 192 352 192c53.019 0 96-42.981 96-96S405.019 0 352 0s-96 42.981-96 96c0 7.158.79 14.13 2.276 20.841L155.79 180.895C139.387 167.819 118.608 160 96 160c-53.019 0-96 42.981-96 96s42.981 96 96 96c22.608 0 43.387-7.819 59.79-20.895l102.486 64.054A96.301 96.301 0 0 0 256 416c0 53.019 42.981 96 96 96s96-42.981 96-96-42.981-96-96-96z"/></svg>
+          </div>
+          <div class="socialShareBtns boxModelFlex">
+            <amp-social-share class="socialShareIcon" type="email" width="40" height="40"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="facebook" width="40" height="40" data-param-app_id="254325784911610"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="linkedin" width="40" height="40"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="twitter" width="40" height="40"></amp-social-share>
+            <amp-social-share class="socialShareIcon" type="whatsapp" width="40" height="40"></amp-social-share>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="noticiaTextsWrapper boxModelGrid">
+      <a href="" aria-label="aLink" class="boxModelGrid tags">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>
+        <span>Atualidades</span>
+      </a>
+      <span class="slideDate">12/02/2020</span>
+      <a href="" aria-label="aLink" class="noticiasTitles"><h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus laboriosam iusto, ipsam magnam saepe expedita laborum aliquid, porro ipsum maiores.</h3></a>
+      <p class="noticiasSubtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque sapiente laboriosam autem atque optio accusamus excepturi debitis animi quam quo, perspiciatis ad nam dolorum quaerat laborum ipsam accusantium id repellendus.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="" aria-label="aLink" class="maisNoticiasBtn boxModelFlex">
+  <h4>Mais notícias</h4>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190.6 320.1"xml:space="preserve" width="20" height="20"> <path d="M187.1,168.5l-146.8,148c-4.7,4.7-12.3,4.7-17,0L3.5,296.7c-4.7-4.7-4.7-12.3,0-17L122,160L3.5,40.3c-4.7-4.7-4.7-12.3,0-17 L23.3,3.5c4.7-4.7,12.3-4.7,17,0l146.8,148C191.8,156.2,191.8,163.8,187.1,168.5z"/> </svg>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer boxModelFlex">
+  <div class="boxModelGrid footerLinks">
+    <ul>
+      <h5>Links</h5>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+    </ul>
+    <ul>
+      <h5>Links</h5>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+    </ul>
+    <ul>
+      <h5>Links</h5>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+    </ul>
+    <ul>
+      <h5>Links</h5>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+    </ul>
+    <ul>
+      <h5>Links</h5>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+      <li><a href="" aria-label="aLink">Link numero 1</a></li>
+    </ul>
+  </div>
+  <div class="footerSocial boxModelFlex">
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30" fill="#fff"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+    </a>
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30" fill="#fff"><path d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"/></svg>
+    </a>
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" width="30" height="30" fill="#fff"><path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"/></svg>
+    </a>
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="30" height="30" fill="#fff"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+    <a href="" aria-label="aLink">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="30" height="30" fill="#fff"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  </div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <span>© 2019 Brand. Todos os direitos reservados</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- final fullContainer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/scriptRelease.js"></script>
+  </body>
+</html>

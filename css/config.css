@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+:root {
+	--thin: 100;
+    --extra-light: 200;
+    --light: 300;
+    --regular: 400;
+    --semi-bold: 600;
+    --bold: 700;
+    --extra-bold: 800;
+    --black: 900;
+    --redColor: #da0100;
+    --orangeColor: #FF6C0E;
+    --yellowColor: #FFBF01;
+    --greenColor: #00C29B;
+    --blueColor: #445581;
+    --grayColor: #383838;
+    --principalColor: #3a3a3a;
+    --blueGrayColor: #2F4858;
+    --mediumGrayColor: #b4b4b4;
+    --lightGrayColor: #f7f7f7;
+}
+
+body, html {
+	scroll-behavior: smooth;
+}
+
+html, body, div, input, p, span, h1, h2, h3, h4, h5, h6, ul, li, header, section, select, article, button, a, textarea {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	background: transparent;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	transition: 0.5s ease all;
+}
+
+.fullContainer {
+	display: flex;
+	position: relative;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	max-width: 2000px;
+	margin: 0 auto;
+	flex-direction: column;
+	scroll-behavior: smooth;
+}
+
+.boxModel {
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+}
+
+.boxModelFlex {
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.boxModelGrid {
+	position: relative;
+	box-sizing: border-box;
+	display: grid;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,a {
+	color: var(--principalColor);
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+a, p {
+	font-size: 18px;
+}
+
+span {
+	font-size: 16px;
+}
+
+.aLink {
+	font-weight: var(--light);
+	cursor: pointer;
+}
+
+.aLink::before {
+	content: '';
+	width: 0%;
+	height: 3px;
+	background-color: var(--orangeColor);
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: 0.3s ease all;
+}
+
+
+.aLink:hover::before {
+	width: 100%;
+}
+
+p {
+	line-height: 1.4;
+}
+
+amp-img.contain img {
+   object-fit: contain;
+}
+
+amp-img.cover img {
+   object-fit: cover;
+}
+
+svg {
+	display: block;
+	box-sizing: border-box;
+	position: relative;	
+}
+
+input {
+	border: 1px solid var(--mediumGrayColor);
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+}
+
+label {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 10px;
+	opacity: 0;
+	pointer-events: none;
+}
